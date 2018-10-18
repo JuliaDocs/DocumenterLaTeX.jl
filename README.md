@@ -8,11 +8,11 @@ This package enables the LaTeX / PDF backend of [`Documenter.jl`][documenter].
 
 ## Installation
 
-The package is currently unregistered and must be added via URL in the package manager.
+The package can be added using the Julia package manager.
 From the Julia REPL, type `]` to enter the Pkg REPL mode and run
 
 ```
-pkg> add https://github.com/JuliaDocs/DocumenterLaTeX.jl.git
+pkg> add DocumenterLaTeX
 ```
 
 ## Usage
