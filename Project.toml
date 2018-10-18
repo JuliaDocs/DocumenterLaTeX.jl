@@ -1,6 +1,5 @@
 name = "DocumenterLaTeX"
 uuid = "cd674d7a-5f81-5cf3-af33-235ef1834b99"
-authors = ["Morten Piibeleht <morten.piibeleht@gmail.com>"]
 version = "0.1.0"
 
 [deps]
