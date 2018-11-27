@@ -11,7 +11,9 @@ RUN apt-get update \
     python-pygments \
     fontconfig \
     && rm -rf /var/lib/apt/lists/*
-RUN useradd -m zeptodoctor
+RUN useradd -m zeptodoctor \
+    && groupadd travis -g 2000 \
+    && usermod -a -G travis zeptodoctor
 WORKDIR /home/zeptodoctor
 ADD https://api.github.com/repos/google/fonts/tarball/master google-fonts.tar.gz
 RUN mkdir google-fonts .fonts \
