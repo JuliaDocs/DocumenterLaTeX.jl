@@ -17,13 +17,13 @@ pkg> add DocumenterLaTeX
 
 ## Usage
 
-To enable the backend import the package in `make.jl` and then just pass `format = :latex`
+To enable the backend import the package in `make.jl` and then just pass `format = DocumenterLaTeX.LaTeX()`
 to `makedocs`:
 
 ```julia
 using Documenter
 using DocumenterLaTeX
-makedocs(format = :latex, ...)
+makedocs(format = DocumenterLaTeX.LaTeX(), ...)
 ```
 
 [documenter]: https://github.com/JuliaDocs/Documenter.jl
