@@ -1,3 +1,5 @@
+> **Warning**: This package is deprecated & archived. The PDF/LaTeX backend is (again) a core [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl) feature.
+
 # DocumenterLaTeX
 
 | **Build Status**                                                                                |
